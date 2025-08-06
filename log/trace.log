@@ -500,3 +500,1243 @@ java.lang.ArithmeticException: / by zero
                 [32m1952995023019458560[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
 2025-08-06 15:27:53.040 INFO  com.lamb.websocket.aspect.LogAspect               :99  
                 [32m1952995023019458560[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------
+2025-08-06 17:58:20.361 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 17:58:20.576 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 17:58:20.585 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 17:58:20.590 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 17:58:26.820 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 17:58:26.857 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953032911631339520[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 47276 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 17:58:26.858 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953032911631339520[0;39m The following 1 profile is active: "dev"
+2025-08-06 17:58:27.749 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953032911631339520[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 17:58:27.757 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953032911631339520[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 17:58:27.758 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953032911631339520[0;39m Starting service [Tomcat]
+2025-08-06 17:58:27.759 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953032911631339520[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 17:58:27.796 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953032911631339520[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 17:58:27.796 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953032911631339520[0;39m Root WebApplicationContext: initialization completed in 906 ms
+2025-08-06 17:58:28.328 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953032911631339520[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 17:58:28.341 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953032911631339520[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 17:58:28.346 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953032911631339520[0;39m Started WebsocketChatBootApplication in 1.868 seconds (process running for 2.283)
+2025-08-06 18:00:01.724 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:00:01.724 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:00:01.725 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:00:14.317 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033364326764544[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:00:14.317 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033364326764544[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:00:14.318 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033364326764544[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:00:14.318 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033364326764544[0;39m 远程地址:127.0.0.1
+2025-08-06 18:00:14.357 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033364326764544[0;39m 请求参数:[]
+2025-08-06 18:00:14.399 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033364326764544[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:00:14.401 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033364326764544[0;39m ----------------- LogAspect 结束 耗时:85 ms -----------------
+2025-08-06 18:00:29.261 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033427006443520[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:00:29.261 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033427006443520[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:00:29.263 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033427006443520[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:00:29.263 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033427006443520[0;39m 远程地址:127.0.0.1
+2025-08-06 18:00:29.264 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033427006443520[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:00:29.312 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953033427006443520[0;39m HikariPool-1 - Starting...
+2025-08-06 18:00:29.403 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953033427006443520[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28882b51
+2025-08-06 18:00:29.404 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953033427006443520[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:00:29.433 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033427006443520[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:00:29.434 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033427006443520[0;39m ----------------- LogAspect 结束 耗时:173 ms -----------------
+2025-08-06 18:00:29.555 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033428239568896[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:00:29.555 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033428239568896[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:00:29.555 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033428239568896[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:00:29.555 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033428239568896[0;39m 远程地址:127.0.0.1
+2025-08-06 18:00:29.557 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033428239568896[0;39m 请求参数:[]
+2025-08-06 18:00:29.557 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033428239568896[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:00:29.558 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033428239568896[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
+2025-08-06 18:01:34.280 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:01:34.507 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:01:34.510 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:01:34.515 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:01:37.908 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:01:37.939 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953033713246781440[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 13928 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:01:37.940 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953033713246781440[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:01:38.679 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953033713246781440[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:01:38.686 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953033713246781440[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:01:38.688 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953033713246781440[0;39m Starting service [Tomcat]
+2025-08-06 18:01:38.688 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953033713246781440[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:01:38.717 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953033713246781440[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:01:38.718 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953033713246781440[0;39m Root WebApplicationContext: initialization completed in 747 ms
+2025-08-06 18:01:39.211 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953033713246781440[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:01:39.223 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953033713246781440[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:01:39.229 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953033713246781440[0;39m Started WebsocketChatBootApplication in 1.631 seconds (process running for 2.004)
+2025-08-06 18:01:41.678 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:01:41.678 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:01:41.679 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:01:41.713 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033730892218368[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:01:41.714 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033730892218368[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:01:41.714 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033730892218368[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:01:41.714 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033730892218368[0;39m 远程地址:127.0.0.1
+2025-08-06 18:01:41.759 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033730892218368[0;39m 请求参数:[]
+2025-08-06 18:01:41.801 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033730892218368[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:01:41.803 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033730892218368[0;39m ----------------- LogAspect 结束 耗时:90 ms -----------------
+2025-08-06 18:01:57.943 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033798965772288[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:01:57.944 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033798965772288[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:01:57.944 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033798965772288[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:01:57.944 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033798965772288[0;39m 远程地址:127.0.0.1
+2025-08-06 18:01:57.945 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033798965772288[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:01:58.001 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953033798965772288[0;39m HikariPool-1 - Starting...
+2025-08-06 18:01:58.102 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953033798965772288[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@737c80d9
+2025-08-06 18:01:58.104 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953033798965772288[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:01:58.134 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033798965772288[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:01:58.135 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033798965772288[0;39m ----------------- LogAspect 结束 耗时:192 ms -----------------
+2025-08-06 18:01:58.472 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953033801184559104[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:01:58.472 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953033801184559104[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:01:58.473 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953033801184559104[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:01:58.473 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953033801184559104[0;39m 远程地址:127.0.0.1
+2025-08-06 18:01:58.473 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953033801184559104[0;39m 请求参数:[]
+2025-08-06 18:01:58.473 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953033801184559104[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:01:58.473 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953033801184559104[0;39m ----------------- LogAspect 结束 耗时:1 ms -----------------
+2025-08-06 18:01:58.532 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:03:57.560 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:03:57.790 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:03:57.792 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:03:57.798 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:04:01.186 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:04:01.223 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953034314290520064[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 73168 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:04:01.223 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953034314290520064[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:04:01.997 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953034314290520064[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:04:02.004 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953034314290520064[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:04:02.006 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953034314290520064[0;39m Starting service [Tomcat]
+2025-08-06 18:04:02.007 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953034314290520064[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:04:02.042 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953034314290520064[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:04:02.043 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953034314290520064[0;39m Root WebApplicationContext: initialization completed in 787 ms
+2025-08-06 18:04:02.567 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953034314290520064[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:04:02.581 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953034314290520064[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:04:02.586 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953034314290520064[0;39m Started WebsocketChatBootApplication in 1.689 seconds (process running for 2.082)
+2025-08-06 18:04:27.281 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:04:27.281 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:04:27.283 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 2 ms
+2025-08-06 18:04:27.366 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953034425691234304[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:04:27.367 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953034425691234304[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:04:27.367 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953034425691234304[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:04:27.367 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953034425691234304[0;39m 远程地址:127.0.0.1
+2025-08-06 18:04:27.414 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953034425691234304[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:04:27.466 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953034425691234304[0;39m HikariPool-1 - Starting...
+2025-08-06 18:04:27.547 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953034425691234304[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59a2f520
+2025-08-06 18:04:27.549 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953034425691234304[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:04:27.616 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953034425691234304[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:04:27.618 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953034425691234304[0;39m ----------------- LogAspect 结束 耗时:252 ms -----------------
+2025-08-06 18:04:27.780 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953034427427676160[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:04:27.780 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953034427427676160[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:04:27.780 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953034427427676160[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:04:27.782 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953034427427676160[0;39m 远程地址:127.0.0.1
+2025-08-06 18:04:27.782 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953034427427676160[0;39m 请求参数:[]
+2025-08-06 18:04:27.782 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953034427427676160[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:04:27.783 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953034427427676160[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------
+2025-08-06 18:04:27.816 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:06:14.774 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:06:14.993 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:06:14.996 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:06:15.000 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:06:18.804 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:06:18.841 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953034891514839040[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 41028 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:06:18.842 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953034891514839040[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:06:19.572 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953034891514839040[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:06:19.580 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953034891514839040[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:06:19.581 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953034891514839040[0;39m Starting service [Tomcat]
+2025-08-06 18:06:19.581 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953034891514839040[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:06:19.611 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953034891514839040[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:06:19.611 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953034891514839040[0;39m Root WebApplicationContext: initialization completed in 740 ms
+2025-08-06 18:06:20.134 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953034891514839040[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:06:20.148 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953034891514839040[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:06:20.152 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953034891514839040[0;39m Started WebsocketChatBootApplication in 1.639 seconds (process running for 2.023)
+2025-08-06 18:07:04.298 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:07:04.544 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:07:07.409 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:07:07.440 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953035095395729408[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 76352 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:07:07.440 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953035095395729408[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:07:08.194 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953035095395729408[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:07:08.203 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035095395729408[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:07:08.204 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953035095395729408[0;39m Starting service [Tomcat]
+2025-08-06 18:07:08.204 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953035095395729408[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:07:08.239 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953035095395729408[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:07:08.239 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953035095395729408[0;39m Root WebApplicationContext: initialization completed in 771 ms
+2025-08-06 18:07:08.768 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035095395729408[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:07:08.779 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953035095395729408[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:07:08.784 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953035095395729408[0;39m Started WebsocketChatBootApplication in 1.664 seconds (process running for 2.207)
+2025-08-06 18:07:17.920 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:07:17.920 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:07:17.922 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 2 ms
+2025-08-06 18:07:17.950 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035141172363264[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:07:17.951 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035141172363264[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:07:17.951 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035141172363264[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:07:17.951 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035141172363264[0;39m 远程地址:127.0.0.1
+2025-08-06 18:07:17.991 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035141172363264[0;39m 请求参数:[]
+2025-08-06 18:07:18.033 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035141172363264[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:07:18.035 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035141172363264[0;39m ----------------- LogAspect 结束 耗时:85 ms -----------------
+2025-08-06 18:07:30.046 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035191906664448[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:07:30.047 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035191906664448[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:07:30.047 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035191906664448[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:07:30.047 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035191906664448[0;39m 远程地址:127.0.0.1
+2025-08-06 18:07:30.050 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035191906664448[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:07:30.100 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953035191906664448[0;39m HikariPool-1 - Starting...
+2025-08-06 18:07:30.194 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953035191906664448[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13737b4a
+2025-08-06 18:07:30.195 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953035191906664448[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:07:30.224 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035191906664448[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:07:30.225 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035191906664448[0;39m ----------------- LogAspect 结束 耗时:179 ms -----------------
+2025-08-06 18:07:30.364 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035193240453120[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:07:30.365 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035193240453120[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:07:30.366 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035193240453120[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:07:30.366 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035193240453120[0;39m 远程地址:127.0.0.1
+2025-08-06 18:07:30.366 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035193240453120[0;39m 请求参数:[]
+2025-08-06 18:07:30.368 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035193240453120[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:07:30.369 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035193240453120[0;39m ----------------- LogAspect 结束 耗时:5 ms -----------------
+2025-08-06 18:07:30.407 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:08:37.182 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:08:37.400 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:08:37.402 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:08:37.408 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:08:46.068 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:08:46.106 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953035508975095808[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 34612 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:08:46.107 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953035508975095808[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:08:46.902 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953035508975095808[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:08:46.911 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035508975095808[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:08:46.913 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953035508975095808[0;39m Starting service [Tomcat]
+2025-08-06 18:08:46.913 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953035508975095808[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:08:46.953 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953035508975095808[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:08:46.954 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953035508975095808[0;39m Root WebApplicationContext: initialization completed in 820 ms
+2025-08-06 18:08:47.527 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035508975095808[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:08:47.541 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953035508975095808[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:08:47.546 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953035508975095808[0;39m Started WebsocketChatBootApplication in 1.803 seconds (process running for 2.43)
+2025-08-06 18:09:06.204 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:09:06.204 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:09:06.204 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
+2025-08-06 18:09:06.240 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035595369369600[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:09:06.240 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035595369369600[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:09:06.240 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035595369369600[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:09:06.241 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035595369369600[0;39m 远程地址:127.0.0.1
+2025-08-06 18:09:06.286 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035595369369600[0;39m 请求参数:[]
+2025-08-06 18:09:06.327 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035595369369600[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:09:06.328 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035595369369600[0;39m ----------------- LogAspect 结束 耗时:89 ms -----------------
+2025-08-06 18:09:14.877 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035631599767552[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:09:14.877 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035631599767552[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:09:14.877 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035631599767552[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:09:14.877 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035631599767552[0;39m 远程地址:127.0.0.1
+2025-08-06 18:09:14.878 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035631599767552[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:09:14.940 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953035631599767552[0;39m HikariPool-1 - Starting...
+2025-08-06 18:09:15.043 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953035631599767552[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c25d348
+2025-08-06 18:09:15.044 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953035631599767552[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:09:15.071 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035631599767552[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:09:15.071 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035631599767552[0;39m ----------------- LogAspect 结束 耗时:194 ms -----------------
+2025-08-06 18:09:15.199 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035632950333440[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:09:15.200 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035632950333440[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:09:15.200 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035632950333440[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:09:15.200 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035632950333440[0;39m 远程地址:127.0.0.1
+2025-08-06 18:09:15.201 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035632950333440[0;39m 请求参数:[]
+2025-08-06 18:09:15.201 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035632950333440[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:09:15.201 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035632950333440[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-06 18:09:15.245 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:10:06.687 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:10:06.904 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:10:06.908 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:10:06.913 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:10:10.576 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:10:10.614 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953035863410577408[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 14904 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:10:10.616 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953035863410577408[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:10:11.430 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953035863410577408[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:10:11.439 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035863410577408[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:10:11.441 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953035863410577408[0;39m Starting service [Tomcat]
+2025-08-06 18:10:11.441 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953035863410577408[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:10:11.475 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953035863410577408[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:10:11.475 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953035863410577408[0;39m Root WebApplicationContext: initialization completed in 819 ms
+2025-08-06 18:10:12.019 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953035863410577408[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:10:12.034 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953035863410577408[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:10:12.040 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953035863410577408[0;39m Started WebsocketChatBootApplication in 1.798 seconds (process running for 2.26)
+2025-08-06 18:10:28.659 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:10:28.660 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:10:28.661 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:10:28.702 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035941244276736[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:10:28.704 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035941244276736[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:10:28.704 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035941244276736[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:10:28.704 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035941244276736[0;39m 远程地址:127.0.0.1
+2025-08-06 18:10:28.760 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035941244276736[0;39m 请求参数:[]
+2025-08-06 18:10:28.818 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035941244276736[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:10:28.820 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035941244276736[0;39m ----------------- LogAspect 结束 耗时:118 ms -----------------
+2025-08-06 18:10:38.488 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035982289735680[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:10:38.489 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035982289735680[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:10:38.489 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035982289735680[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:10:38.489 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035982289735680[0;39m 远程地址:127.0.0.1
+2025-08-06 18:10:38.491 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035982289735680[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:10:38.551 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953035982289735680[0;39m HikariPool-1 - Starting...
+2025-08-06 18:10:38.656 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953035982289735680[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7dafd0b6
+2025-08-06 18:10:38.657 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953035982289735680[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:10:38.686 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035982289735680[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:10:38.687 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035982289735680[0;39m ----------------- LogAspect 结束 耗时:199 ms -----------------
+2025-08-06 18:10:38.811 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953035983644495872[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:10:38.812 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953035983644495872[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:10:38.814 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953035983644495872[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:10:38.814 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953035983644495872[0;39m 远程地址:127.0.0.1
+2025-08-06 18:10:38.815 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953035983644495872[0;39m 请求参数:[]
+2025-08-06 18:10:38.816 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953035983644495872[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:10:38.817 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953035983644495872[0;39m ----------------- LogAspect 结束 耗时:6 ms -----------------
+2025-08-06 18:10:38.866 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:12:12.857 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:12:13.068 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:12:13.071 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:12:13.076 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:12:16.797 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:12:16.841 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953036392698109952[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 7804 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:12:16.842 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953036392698109952[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:12:17.672 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953036392698109952[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:12:17.679 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953036392698109952[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:12:17.680 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953036392698109952[0;39m Starting service [Tomcat]
+2025-08-06 18:12:17.681 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953036392698109952[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:12:17.713 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953036392698109952[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:12:17.714 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953036392698109952[0;39m Root WebApplicationContext: initialization completed in 842 ms
+2025-08-06 18:12:18.265 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953036392698109952[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:12:18.286 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953036392698109952[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:12:18.291 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953036392698109952[0;39m Started WebsocketChatBootApplication in 1.848 seconds (process running for 2.315)
+2025-08-06 18:12:22.231 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:12:22.232 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:12:22.232 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
+2025-08-06 18:12:22.267 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953036417566138368[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:12:22.267 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953036417566138368[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:12:22.268 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953036417566138368[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:12:22.268 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953036417566138368[0;39m 远程地址:127.0.0.1
+2025-08-06 18:12:22.311 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953036417566138368[0;39m 请求参数:[]
+2025-08-06 18:12:22.329 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953036417566138368[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:12:22.331 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953036417566138368[0;39m ----------------- LogAspect 结束 耗时:65 ms -----------------
+2025-08-06 18:12:39.946 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953036491721433088[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:12:39.946 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953036491721433088[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:12:39.946 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953036491721433088[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:12:39.947 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953036491721433088[0;39m 远程地址:127.0.0.1
+2025-08-06 18:12:39.949 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953036491721433088[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:12:40.021 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953036491721433088[0;39m HikariPool-1 - Starting...
+2025-08-06 18:12:40.141 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953036491721433088[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77813886
+2025-08-06 18:12:40.142 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953036491721433088[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:12:40.176 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953036491721433088[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:12:40.177 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953036491721433088[0;39m ----------------- LogAspect 结束 耗时:231 ms -----------------
+2025-08-06 18:12:40.294 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953036493181050880[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:12:40.295 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953036493181050880[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:12:40.296 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953036493181050880[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:12:40.296 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953036493181050880[0;39m 远程地址:127.0.0.1
+2025-08-06 18:12:40.296 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953036493181050880[0;39m 请求参数:[]
+2025-08-06 18:12:40.298 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953036493181050880[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:12:40.299 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953036493181050880[0;39m ----------------- LogAspect 结束 耗时:5 ms -----------------
+2025-08-06 18:12:40.350 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:15:26.703 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:15:26.919 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:15:26.921 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:15:26.927 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:15:30.869 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:15:30.907 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953037206632206336[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 54980 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:15:30.908 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953037206632206336[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:15:31.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953037206632206336[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:15:31.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037206632206336[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:15:31.746 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953037206632206336[0;39m Starting service [Tomcat]
+2025-08-06 18:15:31.746 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953037206632206336[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:15:31.779 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953037206632206336[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:15:31.779 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953037206632206336[0;39m Root WebApplicationContext: initialization completed in 834 ms
+2025-08-06 18:15:32.328 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037206632206336[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:15:32.342 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953037206632206336[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:15:32.347 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953037206632206336[0;39m Started WebsocketChatBootApplication in 1.841 seconds (process running for 2.374)
+2025-08-06 18:15:38.438 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:15:38.439 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:15:38.440 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
+2025-08-06 18:15:38.483 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037240559931392[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:15:38.484 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037240559931392[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:15:38.484 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037240559931392[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:15:38.484 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037240559931392[0;39m 远程地址:127.0.0.1
+2025-08-06 18:15:38.540 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037240559931392[0;39m 请求参数:[]
+2025-08-06 18:15:38.562 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037240559931392[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:15:38.567 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037240559931392[0;39m ----------------- LogAspect 结束 耗时:83 ms -----------------
+2025-08-06 18:16:19.759 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037413684023296[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:16:19.760 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037413684023296[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:16:19.760 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037413684023296[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:16:19.760 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037413684023296[0;39m 远程地址:127.0.0.1
+2025-08-06 18:16:19.762 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037413684023296[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:16:19.848 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953037413684023296[0;39m HikariPool-1 - Starting...
+2025-08-06 18:16:19.977 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953037413684023296[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f074b2
+2025-08-06 18:16:19.979 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953037413684023296[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:16:20.013 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037413684023296[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:16:20.014 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037413684023296[0;39m ----------------- LogAspect 结束 耗时:255 ms -----------------
+2025-08-06 18:16:20.334 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037416095748096[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:16:20.334 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037416095748096[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:16:20.334 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037416095748096[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:16:20.335 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037416095748096[0;39m 远程地址:127.0.0.1
+2025-08-06 18:16:20.335 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037416095748096[0;39m 请求参数:[]
+2025-08-06 18:16:20.336 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037416095748096[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:16:20.336 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037416095748096[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-06 18:16:20.416 ERROR org.apache.tomcat.websocket.pojo.PojoEndpointBase :170 
+                [32m                  [0;39m No error handling configured for [com.lamb.websocket.websocket.ChatEndpoint] and the following error occurred
+java.lang.NullPointerException: Cannot invoke "jakarta.servlet.http.HttpSession.getAttribute(String)" because "httpSession" is null
+	at com.lamb.websocket.websocket.ChatEndpoint.onOpen(ChatEndpoint.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointBase.doOnOpen(PojoEndpointBase.java:67)
+	at org.apache.tomcat.websocket.pojo.PojoEndpointServer.onOpen(PojoEndpointServer.java:46)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.init(WsHttpUpgradeHandler.java:131)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:945)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:17:18.640 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:17:18.848 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:17:18.851 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:17:18.856 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:17:22.707 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:17:22.748 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953037675932876800[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 69004 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:17:22.749 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953037675932876800[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:17:23.567 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953037675932876800[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:17:23.574 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037675932876800[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:17:23.576 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953037675932876800[0;39m Starting service [Tomcat]
+2025-08-06 18:17:23.577 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953037675932876800[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:17:23.621 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953037675932876800[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:17:23.621 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953037675932876800[0;39m Root WebApplicationContext: initialization completed in 845 ms
+2025-08-06 18:17:24.290 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037675932876800[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:17:24.304 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953037675932876800[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:17:24.310 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953037675932876800[0;39m Started WebsocketChatBootApplication in 1.926 seconds (process running for 2.391)
+2025-08-06 18:17:28.578 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:17:28.578 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:17:28.579 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:17:28.616 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037702487015424[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:17:28.617 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037702487015424[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:17:28.617 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037702487015424[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:17:28.617 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037702487015424[0;39m 远程地址:127.0.0.1
+2025-08-06 18:17:28.664 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037702487015424[0;39m 请求参数:[]
+2025-08-06 18:17:28.684 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037702487015424[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:17:28.685 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037702487015424[0;39m ----------------- LogAspect 结束 耗时:70 ms -----------------
+2025-08-06 18:17:35.030 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037729393475584[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:17:35.032 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037729393475584[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:17:35.032 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037729393475584[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:17:35.032 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037729393475584[0;39m 远程地址:127.0.0.1
+2025-08-06 18:17:35.033 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037729393475584[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:17:35.093 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953037729393475584[0;39m HikariPool-1 - Starting...
+2025-08-06 18:17:35.195 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953037729393475584[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b29a304
+2025-08-06 18:17:35.196 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953037729393475584[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:17:35.227 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037729393475584[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:17:35.227 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037729393475584[0;39m ----------------- LogAspect 结束 耗时:197 ms -----------------
+2025-08-06 18:17:35.348 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953037730727264256[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:17:35.349 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953037730727264256[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:17:35.349 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953037730727264256[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:17:35.350 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953037730727264256[0;39m 远程地址:127.0.0.1
+2025-08-06 18:17:35.350 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953037730727264256[0;39m 请求参数:[]
+2025-08-06 18:17:35.351 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953037730727264256[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:17:35.352 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953037730727264256[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
+2025-08-06 18:18:14.397 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:18:14.614 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:18:14.616 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:18:14.621 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:18:18.442 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:18:18.472 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953037909593333760[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 39584 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:18:18.474 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953037909593333760[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:18:19.251 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953037909593333760[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:18:19.259 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037909593333760[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:18:19.261 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953037909593333760[0;39m Starting service [Tomcat]
+2025-08-06 18:18:19.261 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953037909593333760[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:18:19.294 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953037909593333760[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:18:19.294 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953037909593333760[0;39m Root WebApplicationContext: initialization completed in 787 ms
+2025-08-06 18:18:19.892 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953037909593333760[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:18:19.907 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953037909593333760[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:18:19.912 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953037909593333760[0;39m Started WebsocketChatBootApplication in 1.823 seconds (process running for 2.262)
+2025-08-06 18:18:52.863 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:18:52.863 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:18:52.864 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:18:52.898 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038055991320576[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:18:52.899 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038055991320576[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:18:52.899 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038055991320576[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:18:52.899 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038055991320576[0;39m 远程地址:127.0.0.1
+2025-08-06 18:18:52.944 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038055991320576[0;39m 请求参数:[]
+2025-08-06 18:18:52.985 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038055991320576[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:18:52.987 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038055991320576[0;39m ----------------- LogAspect 结束 耗时:90 ms -----------------
+2025-08-06 18:19:04.917 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038106406854656[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:19:04.918 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038106406854656[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:19:04.918 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038106406854656[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:19:04.918 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038106406854656[0;39m 远程地址:127.0.0.1
+2025-08-06 18:19:04.920 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038106406854656[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:19:04.978 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953038106406854656[0;39m HikariPool-1 - Starting...
+2025-08-06 18:19:05.077 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953038106406854656[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2823e347
+2025-08-06 18:19:05.078 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953038106406854656[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:19:05.106 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038106406854656[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:19:05.106 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038106406854656[0;39m ----------------- LogAspect 结束 耗时:189 ms -----------------
+2025-08-06 18:19:05.221 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038107681923072[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:19:05.221 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038107681923072[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:19:05.222 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038107681923072[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:19:05.222 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038107681923072[0;39m 远程地址:127.0.0.1
+2025-08-06 18:19:05.222 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038107681923072[0;39m 请求参数:[]
+2025-08-06 18:19:05.223 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038107681923072[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:19:05.224 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038107681923072[0;39m ----------------- LogAspect 结束 耗时:5 ms -----------------
+2025-08-06 18:19:05.254 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
+                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception
+java.lang.NullPointerException: null
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.lamb.websocket.config.WebSocketGetHttpSessionConfiguration.modifyHandshake(WebSocketGetHttpSessionConfiguration.java:23)
+	at org.apache.tomcat.websocket.server.UpgradeUtil.doUpgrade(UpgradeUtil.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:76)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 18:19:05.263 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
+                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
+2025-08-06 18:19:42.206 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:19:42.417 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:19:42.420 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:19:42.423 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:19:46.178 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:19:46.211 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953038277723201536[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 19520 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:19:46.214 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953038277723201536[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:19:46.975 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953038277723201536[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:19:46.983 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953038277723201536[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:19:46.984 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953038277723201536[0;39m Starting service [Tomcat]
+2025-08-06 18:19:46.985 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953038277723201536[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:19:47.017 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953038277723201536[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:19:47.017 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953038277723201536[0;39m Root WebApplicationContext: initialization completed in 775 ms
+2025-08-06 18:19:47.533 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953038277723201536[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:19:47.549 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953038277723201536[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:19:47.556 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953038277723201536[0;39m Started WebsocketChatBootApplication in 1.702 seconds (process running for 2.15)
+2025-08-06 18:19:51.504 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:19:51.504 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:19:51.504 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 0 ms
+2025-08-06 18:19:51.539 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038301949501440[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:19:51.540 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038301949501440[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:19:51.540 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038301949501440[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:19:51.540 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038301949501440[0;39m 远程地址:127.0.0.1
+2025-08-06 18:19:51.586 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038301949501440[0;39m 请求参数:[]
+2025-08-06 18:19:51.602 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038301949501440[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:19:51.604 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038301949501440[0;39m ----------------- LogAspect 结束 耗时:66 ms -----------------
+2025-08-06 18:20:02.202 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038346677559296[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:20:02.202 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038346677559296[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:20:02.202 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038346677559296[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:20:02.203 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038346677559296[0;39m 远程地址:127.0.0.1
+2025-08-06 18:20:02.204 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038346677559296[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:20:02.268 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953038346677559296[0;39m HikariPool-1 - Starting...
+2025-08-06 18:20:02.379 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953038346677559296[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45f074b2
+2025-08-06 18:20:02.381 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953038346677559296[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:20:02.412 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038346677559296[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:20:02.413 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038346677559296[0;39m ----------------- LogAspect 结束 耗时:211 ms -----------------
+2025-08-06 18:20:02.547 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038348124594176[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:20:02.549 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038348124594176[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:20:02.549 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038348124594176[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:20:02.549 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038348124594176[0;39m 远程地址:127.0.0.1
+2025-08-06 18:20:02.549 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038348124594176[0;39m 请求参数:[]
+2025-08-06 18:20:02.551 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038348124594176[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:20:02.551 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038348124594176[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
+2025-08-06 18:22:06.139 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038866507014144[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038866507014144[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038866507014144[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038866507014144[0;39m 远程地址:127.0.0.1
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038866507014144[0;39m 请求参数:[]
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038866507014144[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:22:06.140 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038866507014144[0;39m ----------------- LogAspect 结束 耗时:1 ms -----------------
+2025-08-06 18:22:13.992 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953038899444883456[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953038899444883456[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953038899444883456[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953038899444883456[0;39m 远程地址:127.0.0.1
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953038899444883456[0;39m 请求参数:[]
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953038899444883456[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:22:13.993 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953038899444883456[0;39m ----------------- LogAspect 结束 耗时:1 ms -----------------
+2025-08-06 18:22:22.516 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-06 18:22:22.721 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+                [32m                  [0;39m Graceful shutdown complete
+2025-08-06 18:22:22.724 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-08-06 18:22:22.729 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+                [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-08-06 18:22:26.612 INFO  org.hibernate.validator.internal.util.Version     :21  
+                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
+2025-08-06 18:22:26.649 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1953038950615453696[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 68804 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 18:22:26.651 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1953038950615453696[0;39m The following 1 profile is active: "dev"
+2025-08-06 18:22:27.419 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1953038950615453696[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 18:22:27.426 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953038950615453696[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:22:27.427 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1953038950615453696[0;39m Starting service [Tomcat]
+2025-08-06 18:22:27.427 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1953038950615453696[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 18:22:27.458 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1953038950615453696[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 18:22:27.459 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1953038950615453696[0;39m Root WebApplicationContext: initialization completed in 781 ms
+2025-08-06 18:22:27.978 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1953038950615453696[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 18:22:27.992 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1953038950615453696[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 18:22:27.997 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1953038950615453696[0;39m Started WebsocketChatBootApplication in 1.71 seconds (process running for 2.161)
+2025-08-06 18:23:27.810 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 18:23:27.810 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 18:23:27.811 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 18:23:27.852 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953039209232044032[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:23:27.853 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953039209232044032[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:23:27.853 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953039209232044032[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:23:27.853 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953039209232044032[0;39m 远程地址:127.0.0.1
+2025-08-06 18:23:27.903 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953039209232044032[0;39m 请求参数:[]
+2025-08-06 18:23:27.922 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953039209232044032[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 18:23:27.925 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953039209232044032[0;39m ----------------- LogAspect 结束 耗时:74 ms -----------------
+2025-08-06 18:23:34.572 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953039237421961216[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:23:34.572 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953039237421961216[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 18:23:34.573 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953039237421961216[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 18:23:34.573 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953039237421961216[0;39m 远程地址:127.0.0.1
+2025-08-06 18:23:34.574 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953039237421961216[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 18:23:34.628 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1953039237421961216[0;39m HikariPool-1 - Starting...
+2025-08-06 18:23:34.727 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1953039237421961216[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c25d348
+2025-08-06 18:23:34.728 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1953039237421961216[0;39m HikariPool-1 - Start completed.
+2025-08-06 18:23:34.754 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953039237421961216[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 18:23:34.755 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953039237421961216[0;39m ----------------- LogAspect 结束 耗时:183 ms -----------------
+2025-08-06 18:23:34.889 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1953039238751555584[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 18:23:34.890 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1953039238751555584[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 18:23:34.890 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1953039238751555584[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 18:23:34.890 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1953039238751555584[0;39m 远程地址:127.0.0.1
+2025-08-06 18:23:34.890 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1953039238751555584[0;39m 请求参数:[]
+2025-08-06 18:23:34.891 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1953039238751555584[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 18:23:34.891 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1953039238751555584[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
