@@ -24,10 +24,10 @@ public class NotLoginException extends RuntimeException{
 
 
     // 不在控制台打印异常
-//    @Override
-//    public synchronized Throwable fillInStackTrace() {
-//        return this;
-//    }
+    @Override
+    public synchronized Throwable fillInStackTrace() {
+        return this;
+    }
 
 
 }

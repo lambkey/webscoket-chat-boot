@@ -19,7 +19,7 @@ public class LoginInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
 
-        //
+        // 忽略预检查请求
         if (HttpMethod.OPTIONS.matches(request.getMethod())){
             return true;
         }

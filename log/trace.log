@@ -1,1432 +1,124 @@
-2025-08-05 11:33:23.101 INFO  org.hibernate.validator.internal.util.Version     :21  
+2025-08-06 15:09:16.742 INFO  org.hibernate.validator.internal.util.Version     :21  
                 [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 11:33:23.146 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952573619253997568[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 18700 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 11:33:23.147 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952573619253997568[0;39m The following 1 profile is active: "dev"
-2025-08-05 11:33:24.126 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952573619253997568[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 11:33:24.136 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952573619253997568[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 11:33:24.137 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952573619253997568[0;39m Starting service [Tomcat]
-2025-08-05 11:33:24.137 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952573619253997568[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 11:33:24.173 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952573619253997568[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 11:33:24.173 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952573619253997568[0;39m Root WebApplicationContext: initialization completed in 992 ms
-2025-08-05 11:33:24.820 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952573619253997568[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 11:33:24.833 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952573619253997568[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 11:33:24.839 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952573619253997568[0;39m Started WebsocketChatBootApplication in 2.149 seconds (process running for 5.772)
-2025-08-05 13:59:45.168 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 13:59:45.197 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 13:59:49.277 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 13:59:49.307 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952610471839244288[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 24508 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 13:59:49.309 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952610471839244288[0;39m The following 1 profile is active: "dev"
-2025-08-05 13:59:50.022 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952610471839244288[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 13:59:50.029 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952610471839244288[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 13:59:50.030 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952610471839244288[0;39m Starting service [Tomcat]
-2025-08-05 13:59:50.030 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952610471839244288[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 13:59:50.060 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952610471839244288[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 13:59:50.060 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952610471839244288[0;39m Root WebApplicationContext: initialization completed in 718 ms
-2025-08-05 13:59:50.580 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952610471839244288[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 13:59:50.592 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952610471839244288[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 13:59:50.597 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952610471839244288[0;39m Started WebsocketChatBootApplication in 1.623 seconds (process running for 2.017)
-2025-08-05 14:00:45.813 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:00:45.838 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:00:49.464 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:00:49.498 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952610724244045824[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 62760 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:00:49.499 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952610724244045824[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:00:50.199 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952610724244045824[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:00:50.207 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952610724244045824[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:00:50.208 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952610724244045824[0;39m Starting service [Tomcat]
-2025-08-05 14:00:50.208 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952610724244045824[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:00:50.237 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952610724244045824[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:00:50.237 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952610724244045824[0;39m Root WebApplicationContext: initialization completed in 705 ms
-2025-08-05 14:00:50.799 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952610724244045824[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:00:50.811 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952610724244045824[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:00:50.816 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952610724244045824[0;39m Started WebsocketChatBootApplication in 1.662 seconds (process running for 2.042)
-2025-08-05 14:01:12.716 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+2025-08-06 15:09:16.784 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1952990338640474112[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 74236 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 15:09:16.785 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1952990338640474112[0;39m The following 1 profile is active: "dev"
+2025-08-06 15:09:17.683 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1952990338640474112[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 15:09:17.694 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952990338640474112[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:09:17.695 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1952990338640474112[0;39m Starting service [Tomcat]
+2025-08-06 15:09:17.695 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1952990338640474112[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 15:09:17.730 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1952990338640474112[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 15:09:17.731 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1952990338640474112[0;39m Root WebApplicationContext: initialization completed in 915 ms
+2025-08-06 15:09:18.571 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952990338640474112[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:09:18.584 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1952990338640474112[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 15:09:18.589 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1952990338640474112[0;39m Started WebsocketChatBootApplication in 2.263 seconds (process running for 6.024)
+2025-08-06 15:11:10.123 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
                 [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:01:12.717 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+2025-08-06 15:11:10.123 INFO  org.springframework.web.servlet.DispatcherServlet :532 
                 [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:01:12.718 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 0 ms
-2025-08-05 14:01:12.773 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-08-05 14:01:12.783 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-08-05 14:01:12.784 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	... 36 common frames omitted
-2025-08-05 14:01:31.323 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-08-05 14:01:31.324 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-08-05 14:01:31.325 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at com.lamb.websocket.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:24)
-	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:146)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	... 36 common frames omitted
-2025-08-05 14:03:41.500 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:03:41.526 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:03:45.237 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:03:45.267 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952611461502038016[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 11800 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:03:45.268 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952611461502038016[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:03:45.961 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952611461502038016[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:03:45.970 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952611461502038016[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:03:45.972 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952611461502038016[0;39m Starting service [Tomcat]
-2025-08-05 14:03:45.973 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952611461502038016[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:03:46.006 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952611461502038016[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:03:46.007 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952611461502038016[0;39m Root WebApplicationContext: initialization completed in 708 ms
-2025-08-05 14:03:46.562 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952611461502038016[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:03:46.576 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952611461502038016[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:03:46.581 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952611461502038016[0;39m Started WebsocketChatBootApplication in 1.645 seconds (process running for 2.044)
-2025-08-05 14:03:52.349 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:03:52.349 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:03:52.350 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+2025-08-06 15:11:10.124 INFO  org.springframework.web.servlet.DispatcherServlet :554 
                 [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:03:52.399 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:03:52.404 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:03:52.405 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:04:39.442 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:04:39.442 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:04:39.443 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:05:59.424 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:05:59.425 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:05:59.426 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:06:56.349 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+2025-08-06 15:11:10.166 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952990816673689600[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:11:10.166 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952990816673689600[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:11:10.167 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952990816673689600[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:11:10.167 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952990816673689600[0;39m 远程地址:127.0.0.1
+2025-08-06 15:11:10.242 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952990816673689600[0;39m 请求参数:[]
+2025-08-06 15:11:10.301 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1952990816673689600[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-06 15:11:10.304 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1952990816673689600[0;39m ----------------- LogAspect 结束 耗时:138 ms -----------------
+2025-08-06 15:16:32.144 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
                 [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:06:56.375 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+2025-08-06 15:16:32.351 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
                 [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:06:59.176 INFO  org.hibernate.validator.internal.util.Version     :21  
+2025-08-06 15:16:36.213 INFO  org.hibernate.validator.internal.util.Version     :21  
                 [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:06:59.218 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952612274421018624[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 15396 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:06:59.219 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952612274421018624[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:07:00.009 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952612274421018624[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:07:00.018 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952612274421018624[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:07:00.020 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952612274421018624[0;39m Starting service [Tomcat]
-2025-08-05 14:07:00.020 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952612274421018624[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:07:00.055 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952612274421018624[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:07:00.056 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952612274421018624[0;39m Root WebApplicationContext: initialization completed in 803 ms
-2025-08-05 14:07:00.674 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952612274421018624[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:07:00.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952612274421018624[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:07:00.697 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952612274421018624[0;39m Started WebsocketChatBootApplication in 1.919 seconds (process running for 2.573)
-2025-08-05 14:07:08.493 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+2025-08-06 15:16:36.243 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1952992182586523648[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 43972 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 15:16:36.243 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1952992182586523648[0;39m The following 1 profile is active: "dev"
+2025-08-06 15:16:36.923 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1952992182586523648[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 15:16:36.930 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952992182586523648[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:16:36.931 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1952992182586523648[0;39m Starting service [Tomcat]
+2025-08-06 15:16:36.931 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1952992182586523648[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 15:16:36.961 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1952992182586523648[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 15:16:36.962 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1952992182586523648[0;39m Root WebApplicationContext: initialization completed in 689 ms
+2025-08-06 15:16:37.521 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952992182586523648[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:16:37.534 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1952992182586523648[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 15:16:37.539 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1952992182586523648[0;39m Started WebsocketChatBootApplication in 1.621 seconds (process running for 2.003)
+2025-08-06 15:16:55.822 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
                 [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:07:08.494 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+2025-08-06 15:16:55.823 INFO  org.springframework.web.servlet.DispatcherServlet :532 
                 [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:07:08.495 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+2025-08-06 15:16:55.824 INFO  org.springframework.web.servlet.DispatcherServlet :554 
                 [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:07:08.554 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:08.561 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:08.562 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:43.636 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:43.636 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:43.637 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:07:59.351 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:08:01.360 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:08:01.360 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:10:04.935 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录] with root cause
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:10:04.936 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] threw exception
-com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:10:04.936 ERROR o.a.c.core.ContainerBase.[Tomcat].[localhost]     :170 
-                [32m                  [0;39m Exception Processing [ErrorPage[errorCode=0, location=/error]]
-jakarta.servlet.ServletException: Request processing failed: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1022)
-	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:950)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:599)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:101)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
-	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:612)
-	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:396)
-	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:323)
-	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:268)
-	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
-	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:209)
-	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:286)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:150)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: com.lamb.websocket.common.exception.NotLoginException: 用户未登录
-2025-08-05 14:12:04.389 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:12:04.420 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:12:08.435 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:12:08.468 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952613571882811392[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 17164 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:12:08.471 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952613571882811392[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:12:09.201 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952613571882811392[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:12:09.209 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952613571882811392[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:12:09.210 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952613571882811392[0;39m Starting service [Tomcat]
-2025-08-05 14:12:09.210 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952613571882811392[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:12:09.245 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952613571882811392[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:12:09.245 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952613571882811392[0;39m Root WebApplicationContext: initialization completed in 748 ms
-2025-08-05 14:12:09.820 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952613571882811392[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:12:09.836 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952613571882811392[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:12:09.843 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952613571882811392[0;39m Started WebsocketChatBootApplication in 1.742 seconds (process running for 2.274)
-2025-08-05 14:12:18.125 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:12:18.126 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:12:18.133 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:13:15.454 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:13:15.481 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:13:41.896 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:13:41.935 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952613963593084928[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 21472 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:13:41.936 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952613963593084928[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:13:42.816 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952613963593084928[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:13:42.828 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952613963593084928[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:13:42.829 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952613963593084928[0;39m Starting service [Tomcat]
-2025-08-05 14:13:42.829 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952613963593084928[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:13:42.867 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952613963593084928[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:13:42.868 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952613963593084928[0;39m Root WebApplicationContext: initialization completed in 900 ms
-2025-08-05 14:13:43.580 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952613963593084928[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:13:43.599 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952613963593084928[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:13:43.606 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952613963593084928[0;39m Started WebsocketChatBootApplication in 2.098 seconds (process running for 2.763)
-2025-08-05 14:13:51.924 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:13:51.925 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:13:51.925 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 0 ms
-2025-08-05 14:14:54.720 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:14:54.749 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:14:58.682 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:14:58.721 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952614285908615168[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 73436 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:14:58.722 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952614285908615168[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:14:59.500 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952614285908615168[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:14:59.510 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952614285908615168[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:14:59.511 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952614285908615168[0;39m Starting service [Tomcat]
-2025-08-05 14:14:59.511 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952614285908615168[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:14:59.552 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952614285908615168[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:14:59.552 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952614285908615168[0;39m Root WebApplicationContext: initialization completed in 802 ms
-2025-08-05 14:15:00.167 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952614285908615168[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:15:00.193 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952614285908615168[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:15:00.200 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952614285908615168[0;39m Started WebsocketChatBootApplication in 1.852 seconds (process running for 2.367)
-2025-08-05 14:15:02.761 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:15:02.762 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:15:02.762 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 0 ms
-2025-08-05 14:16:00.050 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:16:00.078 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:17:12.614 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:17:12.652 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952614847618179072[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 72464 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:17:12.655 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952614847618179072[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:17:13.473 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952614847618179072[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:17:13.483 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952614847618179072[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:17:13.484 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952614847618179072[0;39m Starting service [Tomcat]
-2025-08-05 14:17:13.484 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952614847618179072[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:17:13.519 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952614847618179072[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:17:13.520 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952614847618179072[0;39m Root WebApplicationContext: initialization completed in 836 ms
-2025-08-05 14:17:14.133 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952614847618179072[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:17:14.148 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952614847618179072[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:17:14.152 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952614847618179072[0;39m Started WebsocketChatBootApplication in 1.89 seconds (process running for 2.382)
-2025-08-05 14:17:16.848 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:17:16.848 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:17:16.849 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:17:16.903 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:18:05.805 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:18:05.833 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:18:09.783 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:18:09.817 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952615087318413312[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 37088 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:18:09.820 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952615087318413312[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:18:10.637 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952615087318413312[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:18:10.649 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952615087318413312[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:18:10.651 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952615087318413312[0;39m Starting service [Tomcat]
-2025-08-05 14:18:10.651 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952615087318413312[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:18:10.686 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952615087318413312[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:18:10.687 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952615087318413312[0;39m Root WebApplicationContext: initialization completed in 839 ms
-2025-08-05 14:18:11.295 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952615087318413312[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:18:11.316 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952615087318413312[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:18:11.321 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952615087318413312[0;39m Started WebsocketChatBootApplication in 1.905 seconds (process running for 2.44)
-2025-08-05 14:18:15.434 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:18:15.435 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:18:15.435 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 0 ms
-2025-08-05 14:18:15.486 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:18:53.550 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952615272887005184[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:18:53.551 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952615272887005184[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:18:53.551 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952615272887005184[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:18:53.551 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952615272887005184[0;39m 远程地址:127.0.0.1
-2025-08-05 14:18:53.641 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952615272887005184[0;39m 请求参数:[{"password":"dwadawd","username":"dadwadw"}]
-2025-08-05 14:18:53.708 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952615272887005184[0;39m HikariPool-1 - Starting...
-2025-08-05 14:18:53.848 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952615272887005184[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ba3139
-2025-08-05 14:18:53.849 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952615272887005184[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:18:53.901 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952615272887005184[0;39m 返回结果:{"code":401,"message":"用户名或密码错误"}
-2025-08-05 14:18:53.903 INFO  com.lamb.websocket.aspect.LogAspect               :101 
-                [32m1952615272887005184[0;39m ----------------- LogAspect 结束 耗时:353 ms -----------------
-2025-08-05 14:19:19.854 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:22:05.727 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:22:46.573 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952616250256306176[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:22:46.573 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952616250256306176[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:22:46.573 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952616250256306176[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:22:46.573 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952616250256306176[0;39m 远程地址:127.0.0.1
-2025-08-05 14:22:46.573 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952616250256306176[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:22:46.590 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952616250256306176[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:22:46.590 INFO  com.lamb.websocket.aspect.LogAspect               :101 
-                [32m1952616250256306176[0;39m ----------------- LogAspect 结束 耗时:17 ms -----------------
-2025-08-05 14:27:55.044 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:29:05.776 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952617840748965888[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:29:05.776 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952617840748965888[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:29:05.776 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952617840748965888[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:29:05.776 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952617840748965888[0;39m 远程地址:127.0.0.1
-2025-08-05 14:29:05.777 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952617840748965888[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:29:20.464 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952617840748965888[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:29:20.465 INFO  com.lamb.websocket.aspect.LogAspect               :101 
-                [32m1952617840748965888[0;39m ----------------- LogAspect 结束 耗时:14689 ms -----------------
-2025-08-05 14:30:19.628 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:31:24.901 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m1952615272887005184[0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:34:38.717 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:34:38.743 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:34:38.748 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 14:34:38.761 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 14:34:43.050 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:34:43.083 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952619253617102848[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 64008 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:34:43.084 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952619253617102848[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:34:43.846 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952619253617102848[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:34:43.855 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952619253617102848[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:34:43.857 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952619253617102848[0;39m Starting service [Tomcat]
-2025-08-05 14:34:43.857 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952619253617102848[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:34:43.891 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952619253617102848[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:34:43.892 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952619253617102848[0;39m Root WebApplicationContext: initialization completed in 774 ms
-2025-08-05 14:34:44.493 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952619253617102848[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:34:44.508 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952619253617102848[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:34:44.513 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952619253617102848[0;39m Started WebsocketChatBootApplication in 1.788 seconds (process running for 2.239)
-2025-08-05 14:35:05.850 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:35:05.850 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:35:05.851 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:35:09.739 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:35:29.317 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952619449432379392[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:35:29.317 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952619449432379392[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:35:29.317 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952619449432379392[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:35:29.317 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952619449432379392[0;39m 远程地址:127.0.0.1
-2025-08-05 14:35:29.383 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952619449432379392[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:35:29.444 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952619449432379392[0;39m HikariPool-1 - Starting...
-2025-08-05 14:35:29.555 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952619449432379392[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14e3ac4c
-2025-08-05 14:35:29.557 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952619449432379392[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:35:29.594 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952619449432379392[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:35:29.596 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952619449432379392[0;39m ----------------- LogAspect 结束 耗时:280 ms -----------------
-2025-08-05 14:35:44.269 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:36:50.620 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:37:01.849 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:37:01.877 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:37:01.880 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 14:37:01.885 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 14:37:04.728 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:37:04.760 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952619847597641728[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 59428 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:37:04.761 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952619847597641728[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:37:05.529 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952619847597641728[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:37:05.538 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952619847597641728[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:37:05.540 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952619847597641728[0;39m Starting service [Tomcat]
-2025-08-05 14:37:05.540 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952619847597641728[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:37:05.575 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952619847597641728[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:37:05.577 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952619847597641728[0;39m Root WebApplicationContext: initialization completed in 780 ms
-2025-08-05 14:37:06.186 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952619847597641728[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:37:06.201 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952619847597641728[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:37:06.207 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952619847597641728[0;39m Started WebsocketChatBootApplication in 1.853 seconds (process running for 2.331)
-2025-08-05 14:37:50.857 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:37:50.858 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:37:50.859 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:37:50.974 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952620043589079040[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:37:50.975 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952620043589079040[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:37:50.975 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952620043589079040[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:37:50.975 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952620043589079040[0;39m 远程地址:127.0.0.1
-2025-08-05 14:37:51.035 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952620043589079040[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:37:51.096 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952620043589079040[0;39m HikariPool-1 - Starting...
-2025-08-05 14:37:51.215 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952620043589079040[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b79f4b
-2025-08-05 14:37:51.217 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952620043589079040[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:37:51.287 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952620043589079040[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:37:51.289 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952620043589079040[0;39m ----------------- LogAspect 结束 耗时:315 ms -----------------
-2025-08-05 14:38:08.842 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:38:29.271 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:41:11.221 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:41:11.245 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:41:11.248 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 14:41:11.254 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 14:41:13.726 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:41:13.765 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952620892059041792[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 64876 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:41:13.766 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952620892059041792[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:41:14.504 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952620892059041792[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:41:14.513 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952620892059041792[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:41:14.514 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952620892059041792[0;39m Starting service [Tomcat]
-2025-08-05 14:41:14.514 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952620892059041792[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:41:14.549 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952620892059041792[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:41:14.549 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952620892059041792[0;39m Root WebApplicationContext: initialization completed in 753 ms
-2025-08-05 14:41:15.129 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952620892059041792[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:41:15.143 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952620892059041792[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:41:15.149 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952620892059041792[0;39m Started WebsocketChatBootApplication in 1.785 seconds (process running for 2.241)
-2025-08-05 14:41:37.226 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:41:37.226 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:41:37.227 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:41:37.283 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:45:33.262 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:45:33.288 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:45:36.043 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:45:36.086 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952621992254324736[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 30596 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:45:36.086 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952621992254324736[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:45:36.900 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952621992254324736[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:45:36.909 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952621992254324736[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:45:36.910 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952621992254324736[0;39m Starting service [Tomcat]
-2025-08-05 14:45:36.910 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952621992254324736[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:45:36.945 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952621992254324736[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:45:36.945 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952621992254324736[0;39m Root WebApplicationContext: initialization completed in 828 ms
-2025-08-05 14:45:37.534 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952621992254324736[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:45:37.548 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952621992254324736[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:45:37.553 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952621992254324736[0;39m Started WebsocketChatBootApplication in 1.878 seconds (process running for 2.391)
-2025-08-05 14:45:42.785 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:45:42.785 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:45:42.786 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:45:42.840 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:47:01.538 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:47:01.563 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:47:04.063 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:47:04.103 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952622361558589440[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 66124 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:47:04.103 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952622361558589440[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:47:04.813 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952622361558589440[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:47:04.821 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952622361558589440[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:47:04.823 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952622361558589440[0;39m Starting service [Tomcat]
-2025-08-05 14:47:04.823 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952622361558589440[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:47:04.855 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952622361558589440[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:47:04.856 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952622361558589440[0;39m Root WebApplicationContext: initialization completed in 725 ms
-2025-08-05 14:47:05.425 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952622361558589440[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:47:05.438 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952622361558589440[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:47:05.447 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952622361558589440[0;39m Started WebsocketChatBootApplication in 1.728 seconds (process running for 2.182)
-2025-08-05 14:47:22.295 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:47:22.295 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:47:22.296 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:47:22.360 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :28  
-                [32m                  [0;39m 业务异常，错误码:401,错误信息:用户未登录
-2025-08-05 14:47:48.075 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952622548007985152[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:47:48.075 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952622548007985152[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:47:48.075 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952622548007985152[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:47:48.075 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952622548007985152[0;39m 远程地址:127.0.0.1
-2025-08-05 14:47:48.133 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952622548007985152[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:47:48.192 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952622548007985152[0;39m HikariPool-1 - Starting...
-2025-08-05 14:47:48.305 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952622548007985152[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@489a4175
-2025-08-05 14:47:48.308 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952622548007985152[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:47:48.346 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952622548007985152[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:47:48.349 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952622548007985152[0;39m ----------------- LogAspect 结束 耗时:275 ms -----------------
-2025-08-05 14:48:11.817 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952622647593345024[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:48:11.818 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952622647593345024[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:48:11.818 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952622647593345024[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:48:11.818 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952622647593345024[0;39m 远程地址:127.0.0.1
-2025-08-05 14:48:11.818 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952622647593345024[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:48:11.825 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952622647593345024[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:48:11.825 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952622647593345024[0;39m ----------------- LogAspect 结束 耗时:8 ms -----------------
-2025-08-05 14:48:59.242 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:48:59.269 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:48:59.272 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 14:48:59.277 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 14:49:03.275 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:49:03.311 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952622861611937792[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 9476 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:49:03.311 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952622861611937792[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:49:04.089 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952622861611937792[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:49:04.097 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952622861611937792[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:49:04.099 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952622861611937792[0;39m Starting service [Tomcat]
-2025-08-05 14:49:04.099 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952622861611937792[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:49:04.134 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952622861611937792[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:49:04.135 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952622861611937792[0;39m Root WebApplicationContext: initialization completed in 796 ms
-2025-08-05 14:49:04.737 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952622861611937792[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:49:04.754 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952622861611937792[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:49:04.760 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952622861611937792[0;39m Started WebsocketChatBootApplication in 1.813 seconds (process running for 2.311)
-2025-08-05 14:49:11.723 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:49:11.724 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:49:11.725 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:49:11.824 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952622899276787712[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:49:11.824 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952622899276787712[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:49:11.824 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952622899276787712[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:49:11.824 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952622899276787712[0;39m 远程地址:127.0.0.1
-2025-08-05 14:49:11.891 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952622899276787712[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:49:11.946 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952622899276787712[0;39m HikariPool-1 - Starting...
-2025-08-05 14:49:12.051 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952622899276787712[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d5bd1f5
-2025-08-05 14:49:12.052 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952622899276787712[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:49:12.116 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952622899276787712[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:49:12.118 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952622899276787712[0;39m ----------------- LogAspect 结束 耗时:295 ms -----------------
-2025-08-05 14:49:14.937 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952622912337850368[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:49:14.937 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952622912337850368[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:49:14.937 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952622912337850368[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:49:14.937 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952622912337850368[0;39m 远程地址:127.0.0.1
-2025-08-05 14:49:14.938 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952622912337850368[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:49:14.945 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952622912337850368[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:49:14.946 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952622912337850368[0;39m ----------------- LogAspect 结束 耗时:9 ms -----------------
-2025-08-05 14:52:12.607 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
-                [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 14:52:12.632 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
-                [32m                  [0;39m Graceful shutdown complete
-2025-08-05 14:52:12.635 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 14:52:12.641 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 14:52:15.476 INFO  org.hibernate.validator.internal.util.Version     :21  
-                [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 14:52:15.514 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952623667622920192[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 54796 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 14:52:15.515 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952623667622920192[0;39m The following 1 profile is active: "dev"
-2025-08-05 14:52:16.251 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952623667622920192[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 14:52:16.259 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952623667622920192[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:52:16.260 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952623667622920192[0;39m Starting service [Tomcat]
-2025-08-05 14:52:16.261 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952623667622920192[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 14:52:16.297 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952623667622920192[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 14:52:16.297 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952623667622920192[0;39m Root WebApplicationContext: initialization completed in 756 ms
-2025-08-05 14:52:16.888 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952623667622920192[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 14:52:16.903 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952623667622920192[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 14:52:16.909 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952623667622920192[0;39m Started WebsocketChatBootApplication in 1.793 seconds (process running for 2.26)
-2025-08-05 14:52:47.646 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-05 14:52:47.646 INFO  org.springframework.web.servlet.DispatcherServlet :532 
-                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-05 14:52:47.647 INFO  org.springframework.web.servlet.DispatcherServlet :554 
-                [32m                  [0;39m Completed initialization in 1 ms
-2025-08-05 14:52:47.755 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952623804957016064[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:52:47.756 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952623804957016064[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:52:47.756 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952623804957016064[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:52:47.756 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952623804957016064[0;39m 远程地址:127.0.0.1
-2025-08-05 14:52:47.817 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952623804957016064[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:52:47.879 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1952623804957016064[0;39m HikariPool-1 - Starting...
-2025-08-05 14:52:47.993 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1952623804957016064[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3032a9e
-2025-08-05 14:52:47.994 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1952623804957016064[0;39m HikariPool-1 - Start completed.
-2025-08-05 14:52:48.059 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952623804957016064[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:52:48.061 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952623804957016064[0;39m ----------------- LogAspect 结束 耗时:307 ms -----------------
-2025-08-05 14:52:53.776 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952623830215114752[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 14:52:53.776 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952623830215114752[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 14:52:53.776 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952623830215114752[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 14:52:53.776 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952623830215114752[0;39m 远程地址:127.0.0.1
-2025-08-05 14:52:53.777 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952623830215114752[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 14:52:53.783 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952623830215114752[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 14:52:53.783 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952623830215114752[0;39m ----------------- LogAspect 结束 耗时:7 ms -----------------
-2025-08-05 15:19:45.457 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1952630590095179776[0;39m --------------------LogAspect 开始---------------------
-2025-08-05 15:19:45.458 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1952630590095179776[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-05 15:19:45.458 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1952630590095179776[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-05 15:19:45.458 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1952630590095179776[0;39m 远程地址:127.0.0.1
-2025-08-05 15:19:45.458 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1952630590095179776[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-05 15:19:45.465 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1952630590095179776[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-05 15:19:45.466 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1952630590095179776[0;39m ----------------- LogAspect 结束 耗时:9 ms -----------------
-2025-08-05 15:19:57.809 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
-                [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: java.lang.IllegalStateException: No primary or single unique constructor found for class org.springframework.web.method.HandlerMethod] with root cause
-java.lang.IllegalStateException: No primary or single unique constructor found for class org.springframework.web.method.HandlerMethod
-	at org.springframework.beans.BeanUtils.getResolvableConstructor(BeanUtils.java:268)
-	at org.springframework.validation.DataBinder.createObject(DataBinder.java:931)
-	at org.springframework.validation.DataBinder.construct(DataBinder.java:910)
-	at org.springframework.web.bind.ServletRequestDataBinder.construct(ServletRequestDataBinder.java:116)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletModelAttributeMethodProcessor.constructAttribute(ServletModelAttributeMethodProcessor.java:157)
-	at org.springframework.web.method.annotation.ModelAttributeMethodProcessor.resolveArgument(ModelAttributeMethodProcessor.java:148)
-	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
-	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:227)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:181)
+2025-08-06 15:16:55.870 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952992266657153024[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:16:55.871 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952992266657153024[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:16:55.871 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952992266657153024[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:16:55.871 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952992266657153024[0;39m 远程地址:127.0.0.1
+2025-08-06 15:16:55.925 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952992266657153024[0;39m 请求参数:[]
+2025-08-06 15:16:55.928 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
+                [32m1952992266657153024[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.lamb.websocket.controller.LoginController.checkLoginStatus(LoginController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.lamb.websocket.aspect.LogAspect.doAround(LogAspect.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.lamb.websocket.controller.LoginController$$SpringCGLIB$$0.checkLoginStatus(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
 	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
 	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
@@ -1434,8 +126,8 @@ java.lang.IllegalStateException: No primary or single unique constructor found f
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
 	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
@@ -1471,35 +163,340 @@ java.lang.IllegalStateException: No primary or single unique constructor found f
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:842)
-2025-08-05 15:20:29.710 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+2025-08-06 15:16:55.982 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :29  
+                [32m1952992266657153024[0;39m 业务异常，错误码:401,错误信息:用户未登录
+2025-08-06 15:18:21.819 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952992627157581824[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:18:21.819 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952992627157581824[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:18:21.819 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952992627157581824[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:18:21.819 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952992627157581824[0;39m 远程地址:127.0.0.1
+2025-08-06 15:18:21.819 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952992627157581824[0;39m 请求参数:[]
+2025-08-06 15:18:21.820 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
+                [32m1952992627157581824[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.lamb.websocket.controller.LoginController.checkLoginStatus(LoginController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.lamb.websocket.aspect.LogAspect.doAround(LogAspect.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.lamb.websocket.controller.LoginController$$SpringCGLIB$$0.checkLoginStatus(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 15:18:21.822 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :29  
+                [32m1952992627157581824[0;39m 业务异常，错误码:401,错误信息:用户未登录
+2025-08-06 15:24:21.373 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952994135236362240[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:24:21.374 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952994135236362240[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:24:21.374 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952994135236362240[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:24:21.374 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952994135236362240[0;39m 远程地址:127.0.0.1
+2025-08-06 15:24:21.374 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952994135236362240[0;39m 请求参数:[]
+2025-08-06 15:24:21.375 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
+                [32m1952994135236362240[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.lamb.websocket.controller.LoginController.checkLoginStatus(LoginController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.lamb.websocket.aspect.LogAspect.doAround(LogAspect.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.lamb.websocket.controller.LoginController$$SpringCGLIB$$0.checkLoginStatus(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 15:24:21.379 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :29  
+                [32m1952994135236362240[0;39m 业务异常，错误码:401,错误信息:用户未登录
+2025-08-06 15:25:32.851 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952994435036823552[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:25:32.853 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952994435036823552[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:25:32.854 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952994435036823552[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:25:32.854 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952994435036823552[0;39m 远程地址:127.0.0.1
+2025-08-06 15:25:32.854 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952994435036823552[0;39m 请求参数:[]
+2025-08-06 15:25:32.855 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]               :170 
+                [32m1952994435036823552[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/websocket-chat-boot] threw exception [Request processing failed: java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.lamb.websocket.controller.LoginController.checkLoginStatus(LoginController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.lamb.websocket.aspect.LogAspect.doAround(LogAspect.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at com.lamb.websocket.controller.LoginController$$SpringCGLIB$$0.checkLoginStatus(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1769)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2025-08-06 15:25:32.857 INFO  com.lamb.websocket.handler.ExceptionRestHandler   :29  
+                [32m1952994435036823552[0;39m 业务异常，错误码:401,错误信息:用户未登录
+2025-08-06 15:26:16.637 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
                 [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-05 15:20:29.964 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+2025-08-06 15:26:16.860 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
                 [32m                  [0;39m Graceful shutdown complete
-2025-08-05 15:20:29.967 INFO  com.zaxxer.hikari.HikariDataSource                :349 
-                [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-05 15:20:29.973 INFO  com.zaxxer.hikari.HikariDataSource                :351 
-                [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-08-05 15:20:33.071 INFO  org.hibernate.validator.internal.util.Version     :21  
+2025-08-06 15:26:21.218 INFO  org.hibernate.validator.internal.util.Version     :21  
                 [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-05 15:20:33.120 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1952630787881742336[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 23580 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-05 15:20:33.121 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1952630787881742336[0;39m The following 1 profile is active: "dev"
-2025-08-05 15:20:33.896 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1952630787881742336[0;39m Tomcat initialized with port 8888 (http)
-2025-08-05 15:20:33.904 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952630787881742336[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-05 15:20:33.906 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1952630787881742336[0;39m Starting service [Tomcat]
-2025-08-05 15:20:33.908 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1952630787881742336[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-05 15:20:33.942 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1952630787881742336[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-05 15:20:33.942 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1952630787881742336[0;39m Root WebApplicationContext: initialization completed in 794 ms
-2025-08-05 15:20:34.535 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1952630787881742336[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-05 15:20:34.551 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1952630787881742336[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-05 15:20:34.556 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1952630787881742336[0;39m Started WebsocketChatBootApplication in 1.838 seconds (process running for 2.388)
+2025-08-06 15:26:21.248 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1952994636363350016[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 60708 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-06 15:26:21.248 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1952994636363350016[0;39m The following 1 profile is active: "dev"
+2025-08-06 15:26:21.984 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1952994636363350016[0;39m Tomcat initialized with port 8888 (http)
+2025-08-06 15:26:21.992 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952994636363350016[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:26:21.993 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1952994636363350016[0;39m Starting service [Tomcat]
+2025-08-06 15:26:21.993 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1952994636363350016[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-06 15:26:22.023 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1952994636363350016[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-06 15:26:22.024 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1952994636363350016[0;39m Root WebApplicationContext: initialization completed in 749 ms
+2025-08-06 15:26:22.585 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1952994636363350016[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-06 15:26:22.599 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1952994636363350016[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-06 15:26:22.604 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1952994636363350016[0;39m Started WebsocketChatBootApplication in 1.67 seconds (process running for 2.062)
+2025-08-06 15:27:52.473 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06 15:27:52.473 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+                [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-08-06 15:27:52.474 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+                [32m                  [0;39m Completed initialization in 1 ms
+2025-08-06 15:27:52.565 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952995021039747072[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:27:52.567 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952995021039747072[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-06 15:27:52.567 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952995021039747072[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-06 15:27:52.567 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952995021039747072[0;39m 远程地址:127.0.0.1
+2025-08-06 15:27:52.617 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952995021039747072[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-06 15:27:52.680 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1952995021039747072[0;39m HikariPool-1 - Starting...
+2025-08-06 15:27:52.811 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1952995021039747072[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b883667
+2025-08-06 15:27:52.812 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1952995021039747072[0;39m HikariPool-1 - Start completed.
+2025-08-06 15:27:52.884 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1952995021039747072[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-06 15:27:52.887 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1952995021039747072[0;39m ----------------- LogAspect 结束 耗时:322 ms -----------------
+2025-08-06 15:27:53.037 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1952995023019458560[0;39m --------------------LogAspect 开始---------------------
+2025-08-06 15:27:53.038 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1952995023019458560[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-06 15:27:53.038 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1952995023019458560[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-06 15:27:53.038 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1952995023019458560[0;39m 远程地址:127.0.0.1
+2025-08-06 15:27:53.039 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1952995023019458560[0;39m 请求参数:[]
+2025-08-06 15:27:53.040 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1952995023019458560[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-06 15:27:53.040 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1952995023019458560[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------

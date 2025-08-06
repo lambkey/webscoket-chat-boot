@@ -2,7 +2,11 @@ server:
   port: 8888
   servlet:
    context-path: /websocket-chat-boot
-
+   session:
+     cookie:
+       same-site: none
+       secure: true
+       http-only: true # 是否让浏览器通过js读取cookie
 
 # mysql连接
 spring:
