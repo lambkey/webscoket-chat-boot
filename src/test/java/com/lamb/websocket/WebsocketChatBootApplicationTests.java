@@ -3,8 +3,12 @@ package com.lamb.websocket;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class WebsocketChatBootApplicationTests {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
+public class WebsocketChatBootApplicationTests {
 
     @Test
     void contextLoads() {

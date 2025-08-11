@@ -6,6 +6,7 @@ import com.lamb.websocket.pojo.User;
 import com.lamb.websocket.service.UserService;
 import com.lamb.websocket.vo.LoginReqFormVO;
 import com.lamb.websocket.vo.LoginRespVO;
+import com.lamb.websocket.vo.UserRespVO;
 import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.validation.annotation.Validated;
@@ -31,7 +32,7 @@ public class LoginController {
 
     @GetMapping("/checkLoginStatus")
     public R<String> checkLoginStatus(HttpServletRequest request)  {
-        User user = (User) request.getSession().getAttribute("user");
+        UserRespVO user = (UserRespVO) request.getSession().getAttribute("user");
         if (user == null) {
             return R.error(401, "用户未登录");
         }

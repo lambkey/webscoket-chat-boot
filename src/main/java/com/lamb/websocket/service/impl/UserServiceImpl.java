@@ -1,5 +1,7 @@
 package com.lamb.websocket.service.impl;
 
+import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.lamb.websocket.common.rep.R;
@@ -7,8 +9,11 @@ import com.lamb.websocket.pojo.User;
 import com.lamb.websocket.service.UserService;
 import com.lamb.websocket.mapper.UserMapper;
 import com.lamb.websocket.vo.LoginReqFormVO;
+import com.lamb.websocket.vo.UserRespVO;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 /**
 * @author yzy52
@@ -30,11 +35,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 
         User user = this.getOne(new QueryWrapper<User>().eq("username", loginReqFormVO.getUsername()));
 
-        System.out.println(request.getSession().getAttribute("user"));
-
         // 登录成功设置Session登录信息
         if (user != null && user.getPassword().equals(loginReqFormVO.getPassword())) {
-            request.getSession().setAttribute("user", user);
+            UserRespVO userRespVO = new UserRespVO();
+            BeanUtils.copyProperties(user, userRespVO);
+            request.getSession().setAttribute("user", userRespVO);
             return R.success(user.getUsername());
         }
 
