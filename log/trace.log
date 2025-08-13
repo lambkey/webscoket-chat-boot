@@ -1,116 +1,408 @@
-2025-08-11 15:00:51.819 INFO  org.hibernate.validator.internal.util.Version     :21  
+2025-08-13 11:07:43.258 INFO  org.hibernate.validator.internal.util.Version     :21  
                 [32m                  [0;39m HV000001: Hibernate Validator 8.0.2.Final
-2025-08-11 15:00:51.864 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
-                [32m1954800159719079936[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 3608 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
-2025-08-11 15:00:51.865 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
-                [32m1954800159719079936[0;39m The following 1 profile is active: "dev"
-2025-08-11 15:00:53.070 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
-                [32m1954800159719079936[0;39m Tomcat initialized with port 8888 (http)
-2025-08-11 15:00:53.083 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1954800159719079936[0;39m Initializing ProtocolHandler ["http-nio-8888"]
-2025-08-11 15:00:53.084 INFO  org.apache.catalina.core.StandardService          :168 
-                [32m1954800159719079936[0;39m Starting service [Tomcat]
-2025-08-11 15:00:53.084 INFO  org.apache.catalina.core.StandardEngine           :168 
-                [32m1954800159719079936[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
-2025-08-11 15:00:53.126 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
-                [32m1954800159719079936[0;39m Initializing Spring embedded WebApplicationContext
-2025-08-11 15:00:53.127 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
-                [32m1954800159719079936[0;39m Root WebApplicationContext: initialization completed in 1228 ms
-2025-08-11 15:00:53.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
-                [32m1954800159719079936[0;39m Starting ProtocolHandler ["http-nio-8888"]
-2025-08-11 15:00:53.826 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
-                [32m1954800159719079936[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
-2025-08-11 15:00:53.832 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
-                [32m1954800159719079936[0;39m Started WebsocketChatBootApplication in 2.48 seconds (process running for 5.865)
-2025-08-11 15:03:26.183 WARN  org.apache.catalina.util.SessionIdGeneratorBase   :168 
-                [32m                  [0;39m Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
-2025-08-11 15:03:26.202 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+2025-08-13 11:07:43.298 INFO  com.lamb.websocket.WebsocketChatBootApplication   :53  
+                [32m1955466263550435328[0;39m Starting WebsocketChatBootApplication using Java 17.0.12 with PID 11872 (D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot\target\classes started by yzy52 in D:\study\IDEA\Basic\websocket-chat-boot\websocket-chat-boot)
+2025-08-13 11:07:43.299 INFO  com.lamb.websocket.WebsocketChatBootApplication   :658 
+                [32m1955466263550435328[0;39m The following 1 profile is active: "dev"
+2025-08-13 11:07:44.498 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :111 
+                [32m1955466263550435328[0;39m Tomcat initialized with port 8888 (http)
+2025-08-13 11:07:44.508 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1955466263550435328[0;39m Initializing ProtocolHandler ["http-nio-8888"]
+2025-08-13 11:07:44.509 INFO  org.apache.catalina.core.StandardService          :168 
+                [32m1955466263550435328[0;39m Starting service [Tomcat]
+2025-08-13 11:07:44.509 INFO  org.apache.catalina.core.StandardEngine           :168 
+                [32m1955466263550435328[0;39m Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-13 11:07:44.547 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
+                [32m1955466263550435328[0;39m Initializing Spring embedded WebApplicationContext
+2025-08-13 11:07:44.548 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :301 
+                [32m1955466263550435328[0;39m Root WebApplicationContext: initialization completed in 1208 ms
+2025-08-13 11:07:45.296 INFO  org.apache.coyote.http11.Http11NioProtocol        :168 
+                [32m1955466263550435328[0;39m Starting ProtocolHandler ["http-nio-8888"]
+2025-08-13 11:07:45.310 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :243 
+                [32m1955466263550435328[0;39m Tomcat started on port 8888 (http) with context path '/websocket-chat-boot'
+2025-08-13 11:07:45.315 INFO  com.lamb.websocket.WebsocketChatBootApplication   :59  
+                [32m1955466263550435328[0;39m Started WebsocketChatBootApplication in 2.479 seconds (process running for 6.282)
+2025-08-13 11:11:28.810 INFO  o.a.c.c.C.[.[localhost].[/websocket-chat-boot]    :168 
                 [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-08-11 15:03:26.203 INFO  org.springframework.web.servlet.DispatcherServlet :532 
+2025-08-13 11:11:28.811 INFO  org.springframework.web.servlet.DispatcherServlet :532 
                 [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-08-11 15:03:26.207 INFO  org.springframework.web.servlet.DispatcherServlet :554 
+2025-08-13 11:11:28.812 INFO  org.springframework.web.servlet.DispatcherServlet :554 
                 [32m                  [0;39m Completed initialization in 1 ms
-2025-08-11 15:03:26.554 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1954800811467784192[0;39m --------------------LogAspect 开始---------------------
-2025-08-11 15:03:26.556 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1954800811467784192[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-11 15:03:26.557 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1954800811467784192[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-11 15:03:26.558 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1954800811467784192[0;39m 远程地址:127.0.0.1
-2025-08-11 15:03:26.796 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1954800811467784192[0;39m 请求参数:[{"password":"123456","username":"张三"}]
-2025-08-11 15:03:27.007 INFO  com.zaxxer.hikari.HikariDataSource                :109 
-                [32m1954800811467784192[0;39m HikariPool-1 - Starting...
-2025-08-11 15:03:27.478 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
-                [32m1954800811467784192[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2326f48
-2025-08-11 15:03:27.483 INFO  com.zaxxer.hikari.HikariDataSource                :122 
-                [32m1954800811467784192[0;39m HikariPool-1 - Start completed.
-2025-08-11 15:03:27.631 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1954800811467784192[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
-2025-08-11 15:03:27.639 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1954800811467784192[0;39m ----------------- LogAspect 结束 耗时:1086 ms -----------------
-2025-08-11 15:03:27.792 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1954800816664526848[0;39m --------------------LogAspect 开始---------------------
-2025-08-11 15:03:27.793 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1954800816664526848[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
-2025-08-11 15:03:27.793 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1954800816664526848[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
-2025-08-11 15:03:27.794 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1954800816664526848[0;39m 远程地址:127.0.0.1
-2025-08-11 15:03:27.794 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1954800816664526848[0;39m 请求参数:[]
-2025-08-11 15:03:27.796 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1954800816664526848[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
-2025-08-11 15:03:27.796 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1954800816664526848[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
-2025-08-11 15:03:41.975 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1954800876152340480[0;39m --------------------LogAspect 开始---------------------
-2025-08-11 15:03:41.976 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1954800876152340480[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
-2025-08-11 15:03:41.976 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1954800876152340480[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
-2025-08-11 15:03:41.977 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1954800876152340480[0;39m 远程地址:127.0.0.1
-2025-08-11 15:03:41.977 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1954800876152340480[0;39m 请求参数:[]
-2025-08-11 15:03:41.977 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1954800876152340480[0;39m 返回结果:{"code":401,"message":"用户未登录"}
-2025-08-11 15:03:41.977 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1954800876152340480[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
-2025-08-11 15:03:53.039 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1954800922558119936[0;39m --------------------LogAspect 开始---------------------
-2025-08-11 15:03:53.040 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1954800922558119936[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
-2025-08-11 15:03:53.041 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1954800922558119936[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
-2025-08-11 15:03:53.041 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1954800922558119936[0;39m 远程地址:127.0.0.1
-2025-08-11 15:03:53.042 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1954800922558119936[0;39m 请求参数:[{"password":"123456","username":"李四"}]
-2025-08-11 15:03:53.052 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1954800922558119936[0;39m 返回结果:{"code":200,"data":"李四","message":"成功"}
-2025-08-11 15:03:53.052 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1954800922558119936[0;39m ----------------- LogAspect 结束 耗时:13 ms -----------------
-2025-08-11 15:03:53.191 INFO  com.lamb.websocket.aspect.LogAspect               :62  
-                [32m1954800923195654144[0;39m --------------------LogAspect 开始---------------------
-2025-08-11 15:03:53.192 INFO  com.lamb.websocket.aspect.LogAspect               :63  
-                [32m1954800923195654144[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
-2025-08-11 15:03:53.192 INFO  com.lamb.websocket.aspect.LogAspect               :64  
-                [32m1954800923195654144[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
-2025-08-11 15:03:53.193 INFO  com.lamb.websocket.aspect.LogAspect               :65  
-                [32m1954800923195654144[0;39m 远程地址:127.0.0.1
-2025-08-11 15:03:53.194 INFO  com.lamb.websocket.aspect.LogAspect               :82  
-                [32m1954800923195654144[0;39m 请求参数:[]
-2025-08-11 15:03:53.194 INFO  com.lamb.websocket.aspect.LogAspect               :96  
-                [32m1954800923195654144[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
-2025-08-11 15:03:53.195 INFO  com.lamb.websocket.aspect.LogAspect               :99  
-                [32m1954800923195654144[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
-2025-08-11 15:27:38.504 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
+2025-08-13 11:11:28.862 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467212171976704[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:28.863 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467212171976704[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:11:28.863 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467212171976704[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:11:28.864 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467212171976704[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:28.956 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467212171976704[0;39m 请求参数:[]
+2025-08-13 11:11:28.985 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467212171976704[0;39m 返回结果:{"code":401,"message":"用户未登录"}
+2025-08-13 11:11:28.988 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467212171976704[0;39m ----------------- LogAspect 结束 耗时:126 ms -----------------
+2025-08-13 11:11:36.537 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467244363259904[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:36.538 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467244363259904[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-13 11:11:36.538 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467244363259904[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-13 11:11:36.539 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467244363259904[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:36.541 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467244363259904[0;39m 请求参数:[{"password":"123456","username":"张三"}]
+2025-08-13 11:11:36.630 INFO  com.zaxxer.hikari.HikariDataSource                :109 
+                [32m1955467244363259904[0;39m HikariPool-1 - Starting...
+2025-08-13 11:11:36.881 INFO  com.zaxxer.hikari.pool.HikariPool                 :554 
+                [32m1955467244363259904[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11999223
+2025-08-13 11:11:36.883 INFO  com.zaxxer.hikari.HikariDataSource                :122 
+                [32m1955467244363259904[0;39m HikariPool-1 - Start completed.
+2025-08-13 11:11:36.981 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467244363259904[0;39m 返回结果:{"code":200,"data":"张三","message":"成功"}
+2025-08-13 11:11:36.982 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467244363259904[0;39m ----------------- LogAspect 结束 耗时:445 ms -----------------
+2025-08-13 11:11:37.068 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467246590435328[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:37.069 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467246590435328[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:11:37.069 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467246590435328[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:11:37.069 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467246590435328[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:37.069 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467246590435328[0;39m 请求参数:[]
+2025-08-13 11:11:37.071 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467246590435328[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:11:37.071 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467246590435328[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------
+2025-08-13 11:11:42.558 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467269617164288[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:42.560 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467269617164288[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/loginPOST
+2025-08-13 11:11:42.560 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467269617164288[0;39m 类名方法:com.lamb.websocket.controller.LoginController.login
+2025-08-13 11:11:42.560 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467269617164288[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:42.560 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467269617164288[0;39m 请求参数:[{"password":"123456","username":"李四"}]
+2025-08-13 11:11:42.567 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467269617164288[0;39m 返回结果:{"code":200,"data":"李四","message":"成功"}
+2025-08-13 11:11:42.567 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467269617164288[0;39m ----------------- LogAspect 结束 耗时:9 ms -----------------
+2025-08-13 11:11:42.678 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467270120480768[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:42.679 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467270120480768[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:11:42.679 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467270120480768[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:11:42.679 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467270120480768[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:42.679 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467270120480768[0;39m 请求参数:[]
+2025-08-13 11:11:42.680 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467270120480768[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:11:42.680 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467270120480768[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-13 11:11:52.013 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467309274308608[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:52.014 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467309274308608[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:11:52.014 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467309274308608[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:11:52.014 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467309274308608[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:52.017 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467309274308608[0;39m 请求参数:[{"currentPage":1,"fromUserId":"2","pageSize":100}]
+2025-08-13 11:11:52.130 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467309274308608[0;39m 返回结果:{"code":200,"data":{"currentUser":1,"chatWithUser":"2","resultPage":{"total":25,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"}]}},"message":"成功"}
+2025-08-13 11:11:52.132 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467309274308608[0;39m ----------------- LogAspect 结束 耗时:119 ms -----------------
+2025-08-13 11:11:53.873 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467317075714048[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:11:53.874 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467317075714048[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:11:53.874 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467317075714048[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:11:53.874 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467317075714048[0;39m 远程地址:127.0.0.1
+2025-08-13 11:11:53.874 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467317075714048[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:11:53.886 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467317075714048[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":25,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"}]}},"message":"成功"}
+2025-08-13 11:11:53.887 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467317075714048[0;39m ----------------- LogAspect 结束 耗时:14 ms -----------------
+2025-08-13 11:12:02.813 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467354572791808[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:12:02.814 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467354572791808[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/sendPOST
+2025-08-13 11:12:02.814 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467354572791808[0;39m 类名方法:com.lamb.websocket.controller.MessageController.send
+2025-08-13 11:12:02.814 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467354572791808[0;39m 远程地址:127.0.0.1
+2025-08-13 11:12:02.815 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467354572791808[0;39m 请求参数:[{"content":"？","toId":1}]
+2025-08-13 11:12:02.841 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467354572791808[0;39m 返回结果:{"code":200,"data":"发送成功","message":"成功"}
+2025-08-13 11:12:02.841 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467354572791808[0;39m ----------------- LogAspect 结束 耗时:28 ms -----------------
+2025-08-13 11:12:14.814 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955467404908634112[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:12:14.814 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955467404908634112[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/sendPOST
+2025-08-13 11:12:14.814 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955467404908634112[0;39m 类名方法:com.lamb.websocket.controller.MessageController.send
+2025-08-13 11:12:14.814 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955467404908634112[0;39m 远程地址:127.0.0.1
+2025-08-13 11:12:14.815 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955467404908634112[0;39m 请求参数:[{"content":"不懂你在说啥","toId":2}]
+2025-08-13 11:12:14.826 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955467404908634112[0;39m 返回结果:{"code":200,"data":"发送成功","message":"成功"}
+2025-08-13 11:12:14.826 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955467404908634112[0;39m ----------------- LogAspect 结束 耗时:12 ms -----------------
+2025-08-13 11:22:07.980 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955469892827160576[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:07.981 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955469892827160576[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:22:07.981 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955469892827160576[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:22:07.981 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955469892827160576[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:07.982 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955469892827160576[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:22:08.000 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955469892827160576[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:22:08.000 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955469892827160576[0;39m ----------------- LogAspect 结束 耗时:20 ms -----------------
+2025-08-13 11:22:17.293 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955469931888713728[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:17.293 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955469931888713728[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:22:17.295 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955469931888713728[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:22:17.295 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955469931888713728[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:17.296 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955469931888713728[0;39m 请求参数:[]
+2025-08-13 11:22:17.296 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955469931888713728[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:22:17.297 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955469931888713728[0;39m ----------------- LogAspect 结束 耗时:4 ms -----------------
+2025-08-13 11:22:19.662 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955469941825019904[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:19.662 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955469941825019904[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:22:19.663 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955469941825019904[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:22:19.663 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955469941825019904[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:19.664 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955469941825019904[0;39m 请求参数:[]
+2025-08-13 11:22:19.664 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955469941825019904[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:22:19.664 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955469941825019904[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-13 11:22:20.834 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955469946740744192[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:20.834 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955469946740744192[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:22:20.834 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955469946740744192[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:22:20.835 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955469946740744192[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:20.835 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955469946740744192[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:22:20.846 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955469946740744192[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:22:20.847 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955469946740744192[0;39m ----------------- LogAspect 结束 耗时:13 ms -----------------
+2025-08-13 11:22:22.252 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955469952688267264[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:22.252 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955469952688267264[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:22:22.252 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955469952688267264[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:22:22.252 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955469952688267264[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:22.253 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955469952688267264[0;39m 请求参数:[{"currentPage":1,"fromUserId":"2","pageSize":100}]
+2025-08-13 11:22:22.267 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955469952688267264[0;39m 返回结果:{"code":200,"data":{"currentUser":1,"chatWithUser":"2","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:22:22.269 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955469952688267264[0;39m ----------------- LogAspect 结束 耗时:17 ms -----------------
+2025-08-13 11:22:51.727 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470076315377664[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:51.729 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470076315377664[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:22:51.730 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470076315377664[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:22:51.730 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470076315377664[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:51.730 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470076315377664[0;39m 请求参数:[]
+2025-08-13 11:22:51.730 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470076315377664[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:22:51.730 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470076315377664[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------
+2025-08-13 11:22:55.809 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470093436526592[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:22:55.809 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470093436526592[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:22:55.810 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470093436526592[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:22:55.810 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470093436526592[0;39m 远程地址:127.0.0.1
+2025-08-13 11:22:55.810 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470093436526592[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:22:55.832 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470093436526592[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:22:55.833 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470093436526592[0;39m ----------------- LogAspect 结束 耗时:24 ms -----------------
+2025-08-13 11:23:17.090 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470182695510016[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470182695510016[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470182695510016[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470182695510016[0;39m 远程地址:127.0.0.1
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470182695510016[0;39m 请求参数:[]
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470182695510016[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:23:17.091 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470182695510016[0;39m ----------------- LogAspect 结束 耗时:1 ms -----------------
+2025-08-13 11:24:09.472 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470402401542144[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:09.473 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470402401542144[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:24:09.473 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470402401542144[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:24:09.474 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470402401542144[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:09.474 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470402401542144[0;39m 请求参数:[]
+2025-08-13 11:24:09.475 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470402401542144[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:24:09.475 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470402401542144[0;39m ----------------- LogAspect 结束 耗时:3 ms -----------------
+2025-08-13 11:24:10.427 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470406407102464[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:10.428 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470406407102464[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:24:10.428 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470406407102464[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:24:10.428 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470406407102464[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:10.428 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470406407102464[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:24:10.444 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470406407102464[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:24:10.445 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470406407102464[0;39m ----------------- LogAspect 结束 耗时:18 ms -----------------
+2025-08-13 11:24:45.767 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470554633805824[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470554633805824[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470554633805824[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470554633805824[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470554633805824[0;39m 请求参数:[]
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470554633805824[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:24:45.769 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470554633805824[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-13 11:24:49.107 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470568642781184[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:49.108 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470568642781184[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/auth/checkLoginStatusGET
+2025-08-13 11:24:49.108 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470568642781184[0;39m 类名方法:com.lamb.websocket.controller.LoginController.checkLoginStatus
+2025-08-13 11:24:49.109 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470568642781184[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:49.109 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470568642781184[0;39m 请求参数:[]
+2025-08-13 11:24:49.109 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470568642781184[0;39m 返回结果:{"code":200,"data":"已登录","message":"成功"}
+2025-08-13 11:24:49.109 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470568642781184[0;39m ----------------- LogAspect 结束 耗时:2 ms -----------------
+2025-08-13 11:24:50.993 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470576553238528[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:50.993 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470576553238528[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:24:50.993 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470576553238528[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:24:50.993 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470576553238528[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:50.994 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470576553238528[0;39m 请求参数:[{"currentPage":1,"fromUserId":"1","pageSize":100}]
+2025-08-13 11:24:51.004 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470576553238528[0;39m 返回结果:{"code":200,"data":{"currentUser":2,"chatWithUser":"1","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:24:51.004 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470576553238528[0;39m ----------------- LogAspect 结束 耗时:11 ms -----------------
+2025-08-13 11:24:53.357 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470586468573184[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:24:53.357 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470586468573184[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/listGET
+2025-08-13 11:24:53.357 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470586468573184[0;39m 类名方法:com.lamb.websocket.controller.MessageController.list
+2025-08-13 11:24:53.357 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470586468573184[0;39m 远程地址:127.0.0.1
+2025-08-13 11:24:53.357 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470586468573184[0;39m 请求参数:[{"currentPage":1,"fromUserId":"2","pageSize":100}]
+2025-08-13 11:24:53.372 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470586468573184[0;39m 返回结果:{"code":200,"data":{"currentUser":1,"chatWithUser":"2","resultPage":{"total":27,"pages":100,"records":[{"toId":2,"createdTime":1754900542000,"id":1,"fromId":1,"content":"你好，李四"},{"toId":1,"createdTime":1754900542000,"id":2,"fromId":2,"content":"你好，张三1"},{"toId":1,"createdTime":1754905320000,"id":5,"fromId":2,"content":"你好，我是李四01"},{"toId":1,"createdTime":1754905320000,"id":6,"fromId":2,"content":"你好，我是李四02"},{"toId":1,"createdTime":1754905320000,"id":7,"fromId":2,"content":"你好，我是李四03"},{"toId":2,"createdTime":1754970408000,"id":8,"fromId":1,"content":"你好，李四，我是你爹"},{"toId":1,"createdTime":1754988057000,"id":11,"fromId":2,"content":"你好，我是李四04"},{"toId":2,"createdTime":1754989885000,"id":12,"fromId":1,"content":"我是张三01"},{"toId":1,"createdTime":1754991048000,"id":13,"fromId":2,"content":"你好，我是李四05"},{"toId":1,"createdTime":1754991100000,"id":14,"fromId":2,"content":"你好，我是李四06"},{"toId":1,"createdTime":1754991583000,"id":15,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991639000,"id":16,"fromId":2,"content":"你好，我是李四07"},{"toId":1,"createdTime":1754991883000,"id":17,"fromId":2,"content":"你好，我是李四08"},{"toId":1,"createdTime":1754991933000,"id":18,"fromId":2,"content":"你好，我是李四09"},{"toId":1,"createdTime":1754991997000,"id":19,"fromId":2,"content":"你好，我是李四10"},{"toId":1,"createdTime":1754992358000,"id":20,"fromId":2,"content":"你好，我是李四11"},{"toId":1,"createdTime":1754993124000,"id":21,"fromId":2,"content":"你好，我是李四12"},{"toId":1,"createdTime":1754994164000,"id":22,"fromId":2,"content":"你好，我是李四13"},{"toId":2,"createdTime":1754994189000,"id":23,"fromId":1,"content":"我知道了，我是张三"},{"toId":1,"createdTime":1754994301000,"id":24,"fromId":2,"content":"我知道你是张三"},{"toId":1,"createdTime":1754994714000,"id":25,"fromId":2,"content":"那你知道我是谁吗？"},{"toId":2,"createdTime":1754994736000,"id":26,"fromId":1,"content":"我知道呀，你是李四"},{"toId":1,"createdTime":1754995014000,"id":27,"fromId":2,"content":"知道就行"},{"toId":1,"createdTime":1754995076000,"id":28,"fromId":2,"content":"在干嘛？"},{"toId":2,"createdTime":1754995119000,"id":29,"fromId":1,"content":"没干"},{"toId":1,"createdTime":1755054723000,"id":31,"fromId":2,"content":"？"},{"toId":2,"createdTime":1755054735000,"id":32,"fromId":1,"content":"不懂你在说啥"}]}},"message":"成功"}
+2025-08-13 11:24:53.372 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470586468573184[0;39m ----------------- LogAspect 结束 耗时:15 ms -----------------
+2025-08-13 11:25:01.688 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470621411319808[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:25:01.689 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470621411319808[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/sendPOST
+2025-08-13 11:25:01.689 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470621411319808[0;39m 类名方法:com.lamb.websocket.controller.MessageController.send
+2025-08-13 11:25:01.689 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470621411319808[0;39m 远程地址:127.0.0.1
+2025-08-13 11:25:01.689 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470621411319808[0;39m 请求参数:[{"content":"听不懂？","toId":1}]
+2025-08-13 11:25:01.708 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470621411319808[0;39m 返回结果:{"code":200,"data":"发送成功","message":"成功"}
+2025-08-13 11:25:01.708 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470621411319808[0;39m ----------------- LogAspect 结束 耗时:20 ms -----------------
+2025-08-13 11:25:20.627 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470700847243264[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:25:20.627 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470700847243264[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/sendPOST
+2025-08-13 11:25:20.627 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470700847243264[0;39m 类名方法:com.lamb.websocket.controller.MessageController.send
+2025-08-13 11:25:20.627 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470700847243264[0;39m 远程地址:127.0.0.1
+2025-08-13 11:25:20.628 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470700847243264[0;39m 请求参数:[{"content":"哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈\n","toId":2}]
+2025-08-13 11:25:20.641 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470700847243264[0;39m 返回结果:{"code":200,"data":"发送成功","message":"成功"}
+2025-08-13 11:25:20.642 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470700847243264[0;39m ----------------- LogAspect 结束 耗时:15 ms -----------------
+2025-08-13 11:25:29.327 INFO  com.lamb.websocket.aspect.LogAspect               :62  
+                [32m1955470737337688064[0;39m --------------------LogAspect 开始---------------------
+2025-08-13 11:25:29.327 INFO  com.lamb.websocket.aspect.LogAspect               :63  
+                [32m1955470737337688064[0;39m 请求地址:http://127.0.0.1:8888/websocket-chat-boot/message/sendPOST
+2025-08-13 11:25:29.327 INFO  com.lamb.websocket.aspect.LogAspect               :64  
+                [32m1955470737337688064[0;39m 类名方法:com.lamb.websocket.controller.MessageController.send
+2025-08-13 11:25:29.327 INFO  com.lamb.websocket.aspect.LogAspect               :65  
+                [32m1955470737337688064[0;39m 远程地址:127.0.0.1
+2025-08-13 11:25:29.327 INFO  com.lamb.websocket.aspect.LogAspect               :82  
+                [32m1955470737337688064[0;39m 请求参数:[{"content":"你哈牛魔呢","toId":1}]
+2025-08-13 11:25:29.339 INFO  com.lamb.websocket.aspect.LogAspect               :96  
+                [32m1955470737337688064[0;39m 返回结果:{"code":200,"data":"发送成功","message":"成功"}
+2025-08-13 11:25:29.339 INFO  com.lamb.websocket.aspect.LogAspect               :99  
+                [32m1955470737337688064[0;39m ----------------- LogAspect 结束 耗时:12 ms -----------------
+2025-08-13 11:26:46.375 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :54  
                 [32m                  [0;39m Commencing graceful shutdown. Waiting for active requests to complete
-2025-08-11 15:27:38.901 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
+2025-08-13 11:26:46.677 INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown     :76  
                 [32m                  [0;39m Graceful shutdown complete
-2025-08-11 15:27:38.905 INFO  com.zaxxer.hikari.HikariDataSource                :349 
+2025-08-13 11:26:46.682 INFO  com.zaxxer.hikari.HikariDataSource                :349 
                 [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-08-11 15:27:38.909 INFO  com.zaxxer.hikari.HikariDataSource                :351 
+2025-08-13 11:26:46.686 INFO  com.zaxxer.hikari.HikariDataSource                :351 
                 [32m                  [0;39m HikariPool-1 - Shutdown completed.

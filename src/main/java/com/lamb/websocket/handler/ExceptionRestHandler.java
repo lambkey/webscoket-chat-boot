@@ -29,4 +29,12 @@ public class ExceptionRestHandler {
         return R.error(e.getCode(), e.getMessage());
     }
 
+    @ExceptionHandler(Exception.class)
+    @ResponseBody
+    public R<String> handlerException(Exception e, HandlerMethod handlerMethod)
+    {
+        LOG.error("系统异常，错误信息:{}",e.getMessage());
+        return R.error(500, e.getMessage());
+    }
+
 }

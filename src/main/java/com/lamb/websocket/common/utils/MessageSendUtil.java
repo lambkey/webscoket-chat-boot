@@ -3,6 +3,7 @@ package com.lamb.websocket.common.utils;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lamb.websocket.pojo.User;
+import com.lamb.websocket.vo.UserRespVO;
 import com.lamb.websocket.vo.WebsocketRespVO;
 
 
@@ -21,7 +22,7 @@ public class MessageSendUtil {
      * @Author: 杨卓颖
      * @Date: 2025/8/6
     */
-    public static String sendSystemMessage(boolean isSystem, User fromUser,Object message) {
+    public static String sendSystemMessage(boolean isSystem, UserRespVO fromUser, Object message) {
         
         try {
             WebsocketRespVO websocketRespVO = new WebsocketRespVO();

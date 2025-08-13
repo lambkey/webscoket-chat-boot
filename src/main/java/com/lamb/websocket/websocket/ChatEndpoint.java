@@ -6,12 +6,16 @@ import com.alibaba.fastjson.JSONObject;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.lamb.websocket.common.utils.MessageSendUtil;
 import com.lamb.websocket.config.WebSocketGetHttpSessionConfiguration;
+import com.lamb.websocket.pojo.Message;
 import com.lamb.websocket.pojo.User;
+import com.lamb.websocket.service.MessageService;
 import com.lamb.websocket.vo.UserRespVO;
 import com.lamb.websocket.vo.WebsocketRespVO;
+import jakarta.annotation.Resource;
 import jakarta.servlet.http.HttpSession;
 import jakarta.websocket.*;
 import jakarta.websocket.server.ServerEndpoint;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -108,6 +112,22 @@ public class ChatEndpoint {
 
         // 4. 给所有用户发送当前登录用户上线的消息,消息中排除目标用户
         broadcastMessage(message);
+    }
+
+    public  static void sendMessage(Message message){
+
+        userSessionMap.keySet().forEach(user -> {
+            if (user.getId().equals(message.getFromId()) || user.getId().equals(message.getToId())){
+                ChatEndpoint chatEndpoint = userSessionMap.get(user);
+                try {
+                    chatEndpoint.session.getBasicRemote().sendText(new ObjectMapper().writeValueAsString(message));
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+
     }
 
 

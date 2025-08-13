@@ -15,7 +15,7 @@ import lombok.Setter;
 public class WebsocketRespVO {
 
     private boolean isSystem;
-    private User fromUser;
+    private UserRespVO fromUser;
     private Object message; // 如果isSystem为true，message则为用户的set集合
 
 }
